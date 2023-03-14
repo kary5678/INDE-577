@@ -18,7 +18,13 @@ __**Unsupervised Learning Methods**__
 ## Software
 
 * Anaconda Distribution
-* Python 3.9.16
+* Python 3.9.13
+  * matplotlib
+  * numpy
+  * pandas
+  * scikit-learn/sklearn
+  * seaborn
+  * tensorflow
 
 ## References/Resources
 * *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (2nd Edition) by Aurélien Géron
