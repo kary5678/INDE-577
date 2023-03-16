@@ -10,6 +10,10 @@ __**[Supervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main
 1. [The Perceptron](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/perceptron) - binary classification task
 2. [Linear Regression](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/linear_regression) - regression task
 3. [Logistic Regression](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/logistic_regression) - binary classification task
+4. [The Single Neuron Model](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/single_neuron)
+5. [Dense Neural Networks](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/dense_neural_network)
+6. [k-Nearest Neighbors](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/knn)
+7. [Decision Trees](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/decision_trees)
 
 
 __**[Unsupervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning)**__
