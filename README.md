@@ -1,23 +1,23 @@
 # INDE 577: Data Science & Machine Learning
 
-This repository hosts code for a data science and machine learning course. Concepts are illustrated in Jupyter notebooks applying relevant algorithms on a dataset. The algorithms include both supervised and unsupervised learning methods for classification and regression.
+This repository hosts code for a data science and machine learning course. Concepts are illustrated in Jupyter notebooks applying relevant algorithms on a dataset. The algorithms include both supervised methods for classification and regression, as well as unsupervised learning methods.
 
 ## Contents
 
-To learn more about each algorithm and see them in application, visit their respective linked subdirectories.
+The algorithms enumerated below are each organized into their own subdirectory containing a `README.md` explanation of relevant background and a `.ipynb` Jupyter notebook of code. To learn more about each algorithm and see them in application, visit their respective linked subdirectories.
 
-__**Supervised Learning Methods**__
-1. The Perceptron
-2. Linear Regression
-3. Logistic Regression
+__**[Supervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main/supervised-learning)**__ - classification/regression tasks on labeled  data
+1. [The Perceptron](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/perceptron) - binary classification task
+2. [Linear Regression](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/linear_regression) - regression task
+3. [Logistic Regression](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/logistic_regression) - binary classification task
 
 
-__**Unsupervised Learning Methods**__
+__**[Unsupervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning)**__
 
 
 ## Software
 
-* Anaconda Distribution
+* [Anaconda Distribution](https://www.anaconda.com/products/distribution)
 * Python 3.9.13
   * matplotlib
   * numpy
