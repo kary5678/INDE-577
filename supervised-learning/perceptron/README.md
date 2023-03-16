@@ -36,9 +36,12 @@ TO-DO: define positive/negative class, bias, update rule
 
 ## Advantages/Disadvantages
 ✓ Simple, converges to a solution if training instances are linearly separable
+
 ✓ Relatively easy to interpret because of its simplicity
+
 ✓ Use of weights can give information about features, such as their importance
 
+<br>
 ✗ Incapable of learning complex patterns given that decision boundaries are linear
 
 ## Implementation on Dataset
