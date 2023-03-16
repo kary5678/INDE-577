@@ -24,14 +24,20 @@ The simple explanation of the Perceptron has two steps. The Perceptron takes in 
 
 $$z=w_1x_1 + w_2x_2 + \dots + w_nx_n + b = \textbf{x}^\intercal\textbf{w}$$
 
-A *step function* or *activation function* is then applied to the weighted sum, z, outputting $h_{\textbf{w}}(\textbf{x})= step(z)=\phi(z)$. Step functions include the heaviside function or the sign function. The output of the step function is what classifies the inputted instance to either the positive or negative class.
+A **step function** or **activation function** is then applied to the weighted sum, z, outputting $h_{\textbf{w}}(\textbf{x})= step(z)=\phi(z)$. Step functions include the heaviside function or the sign function. The output of the step function is what classifies the inputted instance to either the positive or negative class.
 
 Seems simple enough, but there's one problem. We don't know what the weights for the inputs are, or how they should be chosen!
+
+The weights and bias term are initalized randomly, such as from a uniform distribution. They are then updated through a training/learning process based on performance metrics, such as the **neuron cost function**:
+
+$$C(\textbf{w}, b)=\frac{1}{4}\sum_{i=1}^{N}(\hat{y}^{(i)}-{y}^{(i)})^2$$
 
 TO-DO: define positive/negative class, bias, update rule
 
 ## Advantages/Disadvantages
 ✓ Simple, converges to a solution if training instances are linearly separable
+✓ Relatively easy to interpret because of its simplicity
+✓ Use of weights can give information about features, such as their importance
 
 ✗ Incapable of learning complex patterns given that decision boundaries are linear
 
