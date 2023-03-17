@@ -18,6 +18,10 @@ __**[Supervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main
 
 __**[Unsupervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning)**__
 
+## Data
+The datasets used are located in the [**Data**](https://github.com/kary5678/INDE-577/tree/main/Data) directory. The main dataset used is the Hawks dataset, which contains observations of three different hawk species and associated features such as wing length, tail length, body weight, etc. 
+
+Please visit the directory for detailed descriptions about the data and appropriate visualizations.
 
 ## Software
 
