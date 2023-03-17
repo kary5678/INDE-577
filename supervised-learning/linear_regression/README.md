@@ -31,7 +31,7 @@ $$y=\alpha + \beta_1x_1 + \beta_2x_2 + \dots + \beta_px_p $$
 
 ### Performance Metrics
 
-* Mean squared error (MSE): $C(\textbf{w}, b)=\frac{1}{2N}\sum_{i=1}^{N}(\hat{y}^{(i)}-{y}^{(i)})^2$
+* Mean squared error (MSE): $C(\textbf{w}, b)=\frac{1}{2N} \sum\limits_{i=1}^{N}(\hat{y}^{(i)}-{y}^{(i)})^2$
 * Root mean squared error (RMSE)
 
 ## Advantages/Disadvantages
