@@ -2,20 +2,31 @@
 
 *k*-nearest neighbors, abbreviated as kNN, is a nonparametric supervised learning method based on the idea that similar data points are grouped together and close in proximity. This algorithm is able to perform both regression and classification.
 
+An example of kNN in usage could be a recommender system. For example, given information about music, you could find the *k*-nearest neighbors for a song and recommend them to a user. Of course, this concept is very preliminary!
+
 kNN was first developed in 1951 by [Evelyn Fix](https://en.wikipedia.org/wiki/Evelyn_Fix) and [Joseph Hodges](https://en.wikipedia.org/wiki/Joseph_Lawson_Hodges_Jr.), two statisticians at the University of California, Berkeley. It was later expanded by Thomas Cover.
 
 ## Algorithm
 
-1. Prepare the data
-2. Choose k, which represents the number of neighbors
-3. For each example in the data
- - 3.1 Calculate the distance between the query example and the current example from the data.
- - 3.2 Add the distance and the index of the example to an ordered collection
-4. Sort the ordered collection of distances and indices from smallest to largest (in ascending order) by the distances
-5. Pick the first K entries from the sorted collection
-6. Get the labels of the selected K entries
-7. If regression, return the mean of the K labels
-8. If classification, return the mode of the K labels
+To predict a target label for a given point, which I will denote as $\textbf{p}$, perform the following:
+1. Prepare the training and testing data.
+2. Choose *k*, which represents the number of neighbors. Read the ["Choosing *k*"](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/knn#choosing-k) section below for more details on this.
+3. For each example, $\textbf{q}_i$, in the training data ($i=1, \dots, n$):
+
+    a. Calculate the distance between the $\textbf{p}$ and $\textbf{q}_i$. This can be done using the Euclidean distance:
+    
+    $$d(p, q) = \sqrt{(p-q)^\intercal(p-q)}$$
+    
+    b. Add the distance and $\textbf{q}_i$ (for convenience, its index) to an ordered collection
+    
+4. Sort the ordered collection of distances and indices, by smallest to largest distance
+5. Pick the first *k* entries from the sorted collection - these are the entries that are the *k* closest neighbors to $\textbf{p}$
+6. Get the labels of the selected *k* entries
+7. Determine the label of $\textbf{p}$ based on the labels in (6)
+
+    a. For regression tasks, return the mean of the *k* labels
+    
+    b. For classification, return the mode of the *k* labels
 
 ### Choosing *k*
 
