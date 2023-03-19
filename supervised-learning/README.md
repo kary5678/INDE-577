@@ -28,10 +28,15 @@ Some examples of regression tasks include:
 
 To learn more about each algorithm and see them in application, visit their respective linked subdirectories.
 
+**Parametric models**
+
 1. [The Perceptron](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/perceptron) - for binary classification tasks
 2. [Linear Regression](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/linear_regression) - for regression tasks
 3. [Logistic Regression](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/logistic_regression) - for binary classification tasks
-4. [The Single Neuron Model](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/single_neuron)
+4. [The Single Neuron Model](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/single_neuron) - encompasses the perceptron, linear regression, logistic regression, etc.
 5. [Dense Neural Networks](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/dense_neural_network)
+
+**Nonparametric models**
+
 6. [k-Nearest Neighbors](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/knn)
 7. [Decision Trees](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/decision_trees)
