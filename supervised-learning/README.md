@@ -38,5 +38,5 @@ To learn more about each algorithm and see them in application, visit their resp
 
 **Nonparametric models**
 
-6. [k-Nearest Neighbors](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/knn)
-7. [Decision Trees](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/decision_trees)
+6. [k-Nearest Neighbors](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/knn) - for both classification and regression tasks
+7. [Decision Trees](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/decision_trees) - for both classification and regression tasks
