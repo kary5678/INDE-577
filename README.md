@@ -14,9 +14,22 @@ __**[Supervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main
 5. [Dense Neural Networks](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/dense_neural_network)
 6. [k-Nearest Neighbors](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/knn)
 7. [Decision Trees](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/decision_trees)
+8. [Ensemble Methods](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods)
+
+   8a. [Voting](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/hard_voting)
+   
+   8b. [Bagging](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/bagging)
+   
+   8b. [Random Forests](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/random_forests)
+   
+   8d. [Boosting](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/boosting)
+   
+There is also a subdirectory hosting code from a [class exercise finding the best classifier for a stroke dataset](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/class_exercise_3-31). This exercise implements many of these supervised learning methods for classification and compares them.
 
 
 __**[Unsupervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning)**__
+1. [k-Means Clustering](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning/k-means_clustering)
+2. DBSCAN
 
 ## Data
 The datasets used are located in the [**Data**](https://github.com/kary5678/INDE-577/tree/main/Data) directory. The main dataset used is the Hawks dataset, which contains observations of three different hawk species and associated features such as wing length, tail length, body weight, etc. 
