@@ -8,3 +8,23 @@
 3. Assign each data point to a centroid, specifically the nearest one
 4. Update the centroids by assigning them to the average of all the points in the respective cluster
 5. Repeat steps 3-4 until the clusters stop moving
+
+### Choosing *k*
+
+The first step is to determine the value of *k* that is most appropriate. This can be determined by methods such as the elbow method.
+
+* Small values of *k* can lead to ...
+* Large values of *k* are ...
+
+A widely accepted optimal value for *k* is ...
+
+## Advantages/Disadvantages
+✓ 
+
+✓ 
+<br></br>
+✗ 
+
+✗ 
+
+## Implementation on Dataset
