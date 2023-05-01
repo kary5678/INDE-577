@@ -7,7 +7,7 @@ The standard *k*-means clustering algorithm was first proposed by Stuart Lloyd o
 ## Algorithm
 
 0. Normalize/scale the data appropriately, if desired. This will ensure that all features contribute equally to the distance calculations used in the clustering algorithm.
-1. Choose $k \ge 1$. *k* is the number of clusters you want to form in the dataset; see the section below on how to choose an optimal value for *k*.
+1. Choose $k \ge 1$. See the section below on how to choose an optimal value for *k*, the number of clusters you want to form in the dataset.
 2. Place k centroids on the feature space. Specifically, randomly initialize k centroids on the feature space.
 3. Assign each data point to a centroid, specifically the nearest one, based on the distance metric used (ex: Euclidean distance).
 4. Update/reposition the centroids by assigning them to the average of all the points assigned to the respective cluster. 
@@ -33,15 +33,15 @@ In addition, consider the complexity problems with regard to small versus large 
 ## Advantages/Disadvantages
 ✓ Relatively fast and scalable algorithm that can handle large datasets with high dimensionalities.
 
-✓ Easy to understand and interpret - results are in the form of cluster centroids, which can provide insights into the underlying patterns in the data
+✓ Easy to understand and interpret - results are in the form of cluster centroids, providing insights into underlying patterns in the data
 
 ✓ Can handle noise and outliers in the data to some extent, and is relatively robust to initialization
 
 ✗ Sensitive to initial conditions; can converge to sub-optimal solutions if the initial centroids are poorly placed
 
-✗ Requires the selection of the number of clusters *k*, which is not always straightforward and can have a significant impact on the quality of the results.
+✗ Selecting the number of clusters, *k*, is not always straightforward and can have a significant impact on the quality of the results
 
-✗ Assumes that the clusters are spherical and have equal variances, which may not be true in all cases.
+✗ Assumes that the clusters are spherical and have equal variances, which may not be true
 
 ✗ Poor performance with non-linearly separable data
 
