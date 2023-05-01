@@ -1,6 +1,6 @@
 # Logistic Regression
 
-Logistic regression is a supervised machine learning technique used for binary classification problems. It is a statistical model that is used to estimate the probability of an instance belonging to a particular class, given its features. 
+Logistic regression is a supervised machine learning technique used for binary classification problems, although it can perform multiclass classification with appropriate extensions. It is a statistical model that is used to estimate the probability of an instance belonging to a particular class, given its features. 
 
 ## Algorithm
 
