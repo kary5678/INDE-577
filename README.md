@@ -6,7 +6,7 @@ This repository hosts code for a data science and machine learning course. Conce
 
 The algorithms enumerated below are each organized into their own subdirectory containing a `README.md` explanation of relevant background and a `.ipynb` Jupyter notebook of code. To learn more about each algorithm and see them in application, visit their respective linked subdirectories.
 
-### __**[Supervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main/supervised-learning)**__ - classification/regression tasks on labeled  data
+### __**[Supervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main/supervised-learning)**__ - classification & regression tasks on labeled data
 1. [The Perceptron](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/perceptron) - binary classification task
 2. [Linear Regression](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/linear_regression) - regression task
 3. [Logistic Regression](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/logistic_regression) - binary classification task
@@ -27,9 +27,10 @@ The algorithms enumerated below are each organized into their own subdirectory c
 There is also a subdirectory hosting code from a [class exercise finding the best classifier for a stroke dataset](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/class_exercise_3-31). This exercise implements many of these supervised learning methods for classification and compares them.
 
 
-### __**[Unsupervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning)**__
-1. [k-Means Clustering](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning/k-means_clustering)
-2. DBSCAN
+### __**[Unsupervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning)**__ - clustering & dimensionality reduction tasks on unlabeled data
+1. [k-Means Clustering](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning/k-means_clustering) - clustering task
+2. [Density-Based Spatial Clustering of Applications With Noise](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning/dbscan) - clustering task that accounts for noise/outliers
+3. [Principal Component Analysis](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning/pca) - dimensionality reduction task
 
 ## Data
 The datasets used are located in the [**Data**](https://github.com/kary5678/INDE-577/tree/main/Data) directory. The main dataset used is the Hawks dataset, which contains observations of three different hawk species and associated features such as wing length, tail length, body weight, etc. 
