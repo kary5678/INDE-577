@@ -32,22 +32,22 @@ To learn more about each algorithm and see them in application, visit their resp
 
 1. [The Perceptron](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/perceptron) - for binary classification tasks
 2. [Linear Regression](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/linear_regression) - for regression tasks
-3. [Logistic Regression](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/logistic_regression) - for binary classification tasks
+3. [Logistic Regression](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/logistic_regression) - binary classification task based on probability of belonging to the positive class
 4. [The Single Neuron Model](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/single_neuron) - encompasses the perceptron, linear regression, logistic regression, etc.
-5. [Dense Neural Networks](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/dense_neural_network)
+5. [Dense Neural Networks](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/dense_neural_network) - network of interconnected layers learns complex relationships for both classification and regression tasks
 
 **Nonparametric models**
 
-6. [k-Nearest Neighbors](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/knn) - for both classification and regression tasks
-7. [Decision Trees](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/decision_trees) - for both classification and regression tasks
-8. [Ensemble Methods](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods)
+6. [k-Nearest Neighbors](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/knn) - for both classification and regression tasks based on similarities existing in proximity
+7. [Decision Trees](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/decision_trees) - for both classification and regression tasks based on a hierarchical tree-like model of decisions
+8. [Ensemble Methods](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods) - combine multiple models to improve the overall performance of a predictive model
 
-   8a. [Voting](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/hard_voting)
+   8a. [Voting](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/hard_voting) - aggregate outputs from multiple models to make predictions
    
-   8b. [Bagging](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/bagging)
+   8b. [Bagging](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/bagging) - train multiple models on different subsets of the training data and combine their predictions
    
-   8b. [Random Forests](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/random_forests)
+   8b. [Random Forests](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/random_forests) - combine multiple decision trees to create a more accurate and robust model
    
-   8d. [Boosting](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/boosting)
+   8d. [Boosting](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/boosting) - combine multiple weak learners to create a stronger and more robust predictor
 
 There is also a subdirectory hosting code from a [class exercise finding the best classifier for a stroke dataset](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/class_exercise_3-31). This exercise implements many of these supervised learning methods for classification and compares them, while also applying good machine learning practices such as *random undersampling* and *feature selection*.
