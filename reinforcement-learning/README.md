@@ -28,3 +28,9 @@ In reinforcement learning, the performance of an agent is typically evaluated us
 * **Convergence:** the rate at which the agent learns to make better decisions over time, measured by plotting the average reward received by the agent over time
 
 One of the challenges in reinforcement learning is the exploration-exploitation dilemma. The agent must decide whether to explore new actions that may lead to better rewards in the long term or to exploit the actions that have already been found to lead to good rewards in the short term. One heuristic to balance exploration and exploitation is the epsilon-greedy policy, where the agent selects the action with the highest expected reward with probability 1-epsilon and selects a random action with probability epsilon.
+
+## Directory Contents
+
+We only briefly discussed reinforcement learning methods in class, and are not expected to implement them. I have included subdirectories with a `README.md` for their respective algorithm and their application. Visit their respective links below:
+
+1. [***k*-Armed Bandit**](https://github.com/kary5678/INDE-577/tree/main/reinforcement-learning/k-armed_bandit) - classical reinforcement learning problem where an agent must choose between k different actions (or arms) to maximize the cumulative reward over time
