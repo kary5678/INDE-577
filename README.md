@@ -39,7 +39,7 @@ Please visit the directory for detailed descriptions about the data and appropri
 
 ## Software
 
-Here are some of the tools used in this repository. You can also view the `requirements.txt` for a more comprehensive list of dependencies.
+Please view the `requirements.txt` for a more comprehensive list of dependencies, but here are some of the tools used in this repository:
 
 * [Anaconda Distribution](https://www.anaconda.com/products/distribution)
 * Python 3.9.13
