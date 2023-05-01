@@ -27,7 +27,7 @@ The algorithms enumerated below are each organized into their own subdirectory c
 There is also a subdirectory hosting code from a [class exercise finding the best classifier for a stroke dataset](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/class_exercise_3-31). This exercise implements many of these supervised learning methods for classification and compares them.
 
 
-### __**[Unsupervised Learning Methods](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning)**__ - clustering & dimensionality reduction tasks on unlabeled data
+### __**[Unsupervised Learning](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning)**__ - clustering & dimensionality reduction tasks on unlabeled data
 1. [k-Means Clustering](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning/k-means_clustering) - clustering task
 2. [Density-Based Spatial Clustering of Applications With Noise](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning/dbscan) - clustering task that accounts for noise/outliers
 3. [Principal Component Analysis](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning/pca) - dimensionality reduction task
