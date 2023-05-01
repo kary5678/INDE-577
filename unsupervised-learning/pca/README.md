@@ -12,7 +12,7 @@ PCA can be used for various purposes, such as reducing the dimensionality of the
 
 3. **Find the eigenvectors and eigenvalues of the covariance matrix.** Eigenvectors are the directions in which the data varies the most, while eigenvalues represent the amount of variance explained by each eigenvector. Eigenvectors and eigenvalues of the covariance matrix can be computed using linear algebra. Then, sort the eigenvectors in decreasing order of eigenvalue, so that the eigenvectors with the highest variance (and therefore the most important) come first.
 
-4. **Choose the number of principal components.** Tthe number of principal components to keep is chosen based on the desired amount of variance to be retained. This can be determined by looking at the explained variance ratio, which is the proportion of the total variance explained by each principal component.
+4. **Choose the number of principal components.** The number of principal components to keep is chosen based on the desired amount of variance to be retained. This can be determined by looking at the explained variance ratio, which is the proportion of the total variance explained by each principal component.
 
 5. **Reduce the dimension of the data.** Project the data onto the new feature space by taking the top k eigenvectors (where k is the chosen number of principal components) and use them to transform the data. This new feature space has k dimensions, where each dimension corresponds to a principal component.
 
