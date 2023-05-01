@@ -32,7 +32,6 @@ The weights and bias term are initalized randomly, such as from a uniform distri
 
 $$C(\textbf{w}, b)=\frac{1}{4}\sum_{i=1}^{N}(\hat{y}^{(i)}-{y}^{(i)})^2$$
 
-TO-DO: define positive/negative class, bias, update rule
 
 ## Advantages/Disadvantages
 ✓ Simple, converges to a solution if training instances are linearly separable
@@ -41,9 +40,12 @@ TO-DO: define positive/negative class, bias, update rule
 
 ✓ Use of weights can give information about features, such as their importance
 
-<br>
 ✗ Incapable of learning complex patterns given that decision boundaries are linear
+
+✗ Algorithm may not converge if the training data is noisy or if the classes are imbalanced
+
+✗ Algorithm may overfit the training data if the model is too complex or if the learning rate is too high
 
 ## Implementation on Dataset
 
-The Perceptron algorithm discussed above is implemented in [this Jupyter notebook](https://github.com/kary5678/INDE-577/blob/main/supervised-learning/perceptron/perceptron.ipynb) using the [Hawks](https://r-data.pmagunia.com/dataset/r-dataset-package-stat2data-hawks) dataset. This data contains observations for 3 species of hawks (which will formulate the binary classes) and features such as age, sex, wing length, body weight, tail length, etc. More details about this dataset and visualizations of the relevant features for this classification task can be found in the notebook.
+The Perceptron algorithm discussed above is implemented in [this Jupyter notebook](https://github.com/kary5678/INDE-577/blob/main/supervised-learning/perceptron/perceptron.ipynb) using the [Hawks](https://github.com/kary5678/INDE-577/blob/main/Data/hawks.csv) dataset. This data contains observations for 3 species of hawks (which will formulate the binary classes) and features such as age, sex, wing length, body weight, tail length, etc. More details about this dataset and visualizations of the relevant features for this classification task can be found in the [hawks analysis notebook](https://github.com/kary5678/INDE-577/blob/main/Data/hawks_analysis.ipynb).
