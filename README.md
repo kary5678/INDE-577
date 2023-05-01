@@ -1,6 +1,6 @@
 # INDE 577: Data Science & Machine Learning
 
-This repository hosts code for a data science and machine learning course. Concepts are illustrated in Jupyter notebooks applying relevant algorithms on a dataset. The algorithms include both supervised methods for classification and regression, as well as unsupervised learning methods.
+This repository hosts code for a data science and machine learning course. Concepts are illustrated in Jupyter notebooks applying relevant algorithms on a dataset. The algorithms include both supervised methods for classification and regression, as well as unsupervised learning methods for clustering and dimensionality reduction.
 
 ## Contents
 
