@@ -36,4 +36,4 @@ I implement the following 4 ensemble methods in my repository:
 
 3. [**Random Forests**](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/random_forests) - combine multiple decision trees to create a more accurate and robust model
 
-4. [**Boosting**](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/boosting) - combines multiple weak classifiers to create a strong classifier
+4. [**Boosting**](https://github.com/kary5678/INDE-577/tree/main/supervised-learning/ensemble_methods/boosting) - combine multiple weak classifiers to create a strong classifier
