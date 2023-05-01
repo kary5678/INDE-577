@@ -39,13 +39,15 @@ Please visit the directory for detailed descriptions about the data and appropri
 
 ## Software
 
+Here are some of the tools used in this repository. You can also view the `requirements.txt` for a more comprehensive list of dependencies.
+
 * [Anaconda Distribution](https://www.anaconda.com/products/distribution)
 * Python 3.9.13
   * matplotlib
   * numpy
   * pandas
-  * scikit-learn/sklearn
   * seaborn
+  * scikit-learn/sklearn
   * tensorflow
 
 ## References/Resources
