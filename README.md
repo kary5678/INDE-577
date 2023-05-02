@@ -32,6 +32,20 @@ There is also a subdirectory hosting code from a [class exercise finding the bes
 2. [**Density-Based Spatial Clustering of Applications With Noise**](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning/dbscan) - clustering task that accounts for noise/outliers
 3. [**Principal Component Analysis**](https://github.com/kary5678/INDE-577/tree/main/unsupervised-learning/pca) - dimensionality reduction task
 
+### __**[Reinforcement Learning](https://github.com/kary5678/INDE-577/tree/main/reinforcement-learning)**__ - decision making by trial and error
+
+We only briefly discussed reinforcement learning methods in class, and were not expected to implement them. Thus, this directory only consists of a `README.md` writeup about what reinforcement learning is, as well as a writeup introducing the classical [k-armed bandit problem](https://github.com/kary5678/INDE-577/tree/main/reinforcement-learning/k-armed_bandit).
+
+### __**[Miscellaneous Methods](https://github.com/kary5678/INDE-577/tree/main/misc-methods)**__ - general good practices for machine learning
+
+1. [**Cross validation**](https://github.com/kary5678/INDE-577/tree/main/misc-methods/cross_validation) - evaluating the generalized performance of a model
+
+2. [**Feature selection**](https://github.com/kary5678/INDE-577/tree/main/misc-methods/feature_selection) - removing irrelevant or redundant features
+
+3. [**Random oversampling & random undersampling**](https://github.com/kary5678/INDE-577/tree/main/misc-methods/random_oversampling) - addressing class imbalance and bias towards the majority class
+
+This directory aggregates some practices implemented throughout the repository to emphasize how they are useful tools that one should consider when fitting a best performing a machine learning model. I also discuss and define some common performance metrics and dilemmas in machine learning.
+
 ## Data
 The datasets used are located in the [**Data**](https://github.com/kary5678/INDE-577/tree/main/Data) directory. The main dataset used is the Hawks dataset, which contains observations of three different hawk species and associated features such as wing length, tail length, body weight, etc. 
 
